@@ -1,0 +1,85 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build and output directories
+dist/
+dist-ssr/
+public/build/
+.storybook-static/
+.next/
+.nuxt/
+.svelte-kit/
+.docusaurus/
+
+# Environment variables
+.env
+.env.*
+.env.*.local
+*.local
+
+# Cache and coverage
+.cache/
+coverage/
+.nyc_output/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_*/
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Miscellaneous
+**/*.backup.*
+**/*.back.*
+*.sublime*
+psd
+thumb
+sketch
+
+# REPL history
+.node_repl_history
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn and pnpm cache
+.yarn-integrity
+.yarn/
+.pnpm-store/
+.pnp.*
+
+# Framework-specific files
+# Uncomment if your frontend uses these frameworks
+# Gatsby:
+# .cache/
+# public/
+
+# Next.js:
+# .next/
+
+# Nuxt.js:
+# .nuxt/
+
+# VuePress:
+# .vuepress/dist
+# .temp/
